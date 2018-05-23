@@ -37,19 +37,19 @@ class TestCases(unittest.TestCase):
 
     def test_is_factorion_negative(self):
 	"""is_factorion => test values that should not be factorions"""
-	for x in range(40585, 42585):
-		self.assertFalse(is_factorion(40585))
+	for x in range(40586, 42583):
+		self.assertFalse(is_factorion(x))
 
     def test_is_happy_positive(self):
-	self.assertTrue(130)
-	self.assertTrue(133)
-	self.assertTrue(139)
-	self.assertTrue(167)
-	self.assertTrue(176)
+	self.assertTrue(is_happy(130))
+	self.assertTrue(is_happy(133))
+	self.assertTrue(is_happy(139))
+	self.assertTrue(is_happy(167))
+	self.assertTrue(is_happy(176))
     def test_is_happy_negative(self):
-	self.assertFalse(5)
-	self.assertFalse(11)
-	self.assertFalse(45)
+	self.assertFalse(is_happy(5))
+	self.assertFalse(is_happy(11))
+	self.assertFalse(is_happy(45))
 
 
 if __name__ == '__main__':

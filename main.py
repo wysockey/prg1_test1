@@ -8,8 +8,10 @@ def is_square(number):
 		number=16 -> True 
 		number =15 -> False
 	'''
-	
-	return True
+	if(number <0):
+		 return False
+	return math.sqrt(number)== int(math.sqrt(number))
+
 
 def is_factorion(n):
 	'''problem 2)
@@ -22,7 +24,23 @@ def is_factorion(n):
 
 	Write a function that returns True if n is a factorion
 	'''
-	return True
+	sn = str(n)
+	sum = 0
+	for digit in sn:
+		factorial = 1
+		for x in range(1,int(digit)+1):
+			factorial *= x
+		sum += factorial
+	#print(sum,n)
+	return sum == n
+
+def cycle(n):
+	strn = str(n)
+	sum = 0
+	for sdigit in str(n):
+		digit = int(sdigit)
+		sum = sum + (digit * digit)
+	return sum
 
 def is_happy(n):
 	''' Extra credit
@@ -32,8 +50,18 @@ def is_happy(n):
 	or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
 
 	Write a function that tells you if n is a happy number
-
 '''
+	found = []
+	while(n != 1):
+		n = cycle(n)
+		if(n in found):
+			return False
+		found.append(n)
+	return True
+	
+	
+	
+
 	return True
 
 
