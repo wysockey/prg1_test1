@@ -25,6 +25,7 @@ class TestCases(unittest.TestCase):
 			self.assertFalse(is_square(x))
 			
 			
+
 			
 if __name__ == '__main__':
     unittest.main()

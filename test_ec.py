@@ -14,6 +14,7 @@ class TestCases(unittest.TestCase):
 		self.assertFalse(is_happy(11))
 		self.assertFalse(is_happy(45))
 
+		
 if __name__ == '__main__':
 	unittest.main()
 

@@ -10,12 +10,4 @@ def is_factorion(n):
 
 	Write a function that returns True if n is a factorion
 	'''
-	sn = str(n)
-	sum = 0
-	for digit in sn:
-		factorial = 1
-		for x in range(1,int(digit)+1):
-			factorial *= x
-		sum += factorial
-	#print(sum,n)
-	return sum == n 
+	return True
