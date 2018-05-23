@@ -8,6 +8,7 @@ def is_square(number):
 		number=16 -> True 
 		number =15 -> False
 	'''
+	
 	return True
 
 def is_factorion(n):
@@ -35,6 +36,38 @@ def is_happy(n):
 '''
 	return True
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 if __name__ == "__main__":
 	print("running problem 1")
 	print(filter(lambda x: is_square(x),range(1,10000)))
@@ -43,6 +76,7 @@ if __name__ == "__main__":
 	print(filter(lambda x: is_factorion(x),range(1,10000)))
 	#print("running extra credit")
 	#print(filter(lambda x: is_happy(x),range(1,10000))
+'''
 
 
 
