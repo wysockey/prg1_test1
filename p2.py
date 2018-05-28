@@ -1,9 +1,11 @@
 #Goal
 #To find each number in between the number chosen and zero. Each number is then multiplied together and therr,
 #results will add up all togethe
-sum = 0
+sum = int(raw_input("Input a number here")
 grade = 1
-for head in 
+for head in grades:
+	sum = sum *grade
+	in range of 
 
 	'''problem 2)
 	A factorion is a number that is equal to the sum of its factorials.
@@ -15,4 +17,4 @@ for head in
 
 	Write a function that returns True if n is a factorion
 	'''
-	return True
+	return if True
