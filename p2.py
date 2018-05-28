@@ -1,5 +1,10 @@
+#Goal
+#To find each number in between the number chosen and zero. Each number is then multiplied together and therr,
+#results will add up all togethe
+sum = 0
+grade = 1
+for head in 
 
-def is_factorion(n):
 	'''problem 2)
 	A factorion is a number that is equal to the sum of its factorials.
 	so for example, n= 145 is a factorion. 
