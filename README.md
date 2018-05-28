@@ -1,4 +1,12 @@
-# prg1_test1
+# Computer Programming I Final Exam
+## Ground rules
+- no talking of any kind
+- no calculator
+- no internet usage(except for forking cloning, pushing, and checking work)
+- only work submitted during the final exam will be accepted
+- you may look at code stored in your ubuntu account
+
+
 
 
 ### Problem 1
