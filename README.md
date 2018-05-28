@@ -35,4 +35,12 @@
 	or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
 
 	Write a function that tells you if n is a happy number
+	
+	
+
+## But Wait Mr. Gold, how do I get your exam?
+### Great question, excellent student. See the button called Fork in the upper right hand corner? Press that and then you have my repository! Then you can clone into unbuntu as if its yours!
+
+##  Ok....How should I submit the work?
+### When you are satisfied with your work, Add, Commit, Pull, and Push!  I will be checking in your account for a repo named cf2_test1
 
